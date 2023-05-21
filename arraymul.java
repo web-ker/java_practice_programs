@@ -61,6 +61,7 @@ class arraymul
 			System.out.print(C[u][v]);
 		}
 		System.out.print(" \n");
+		sc.close();
 	}
   }
 }

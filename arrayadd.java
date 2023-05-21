@@ -55,6 +55,7 @@ class arrayadd
 			System.out.print(C[q][r]);
 		}
 		System.out.println("\n");
+		sc.close();
 	}
   }
 }
