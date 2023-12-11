@@ -1,0 +1,23 @@
+class ArrayMinMaxSum{
+    public static void main(String[] args) {
+        
+    int arr[] = {2, 3, 1, 8, 4};
+
+    int min = arr[0];
+    int max = arr[0];
+    int sum = 0;
+    for(int i=0; i<arr.length; i++) {
+        if(max < arr[i]) {
+            max = arr[i];
+        }
+        if(min > arr[i]) {
+            min = arr[i];
+        }
+        sum = sum + arr[i];
+    }
+    System.out.println("MinSum " + (sum-max));
+    System.out.println("MaxSum " + (sum-min));
+
+
+    }
+}
